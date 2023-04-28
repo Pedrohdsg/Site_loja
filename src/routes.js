@@ -9,6 +9,7 @@ function AppRoutes() {
     <Banner/>
       <Routes>
         <Route path="/" element={<Inicio />}></Route>
+        
       </Routes>
     </BrowserRouter>
   );

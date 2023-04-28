@@ -1,7 +1,31 @@
 .fundo {
-    background-color: #004aad;
-    background-image: url(./banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+  background-image: url(./banner.jpg);
+  background-size: cover;
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.link {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 0.5em;
+  border-radius: 2em;
+  justify-content: center;
+  color: aliceblue;
+  font-size: larger;
+  font-weight: bolder;
+  margin: 1em;
+  justify-content: space-between;
+  display: flexbox;
+}
+
+.logo {
+  display: flex;
+  padding: 0.5em;
+  border-radius: 10em;
+}
+
+.nav {
+  margin: 4em;
+  display: flex;
 }
