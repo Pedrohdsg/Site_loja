@@ -61,9 +61,17 @@ function App() {
   ];
 
   return (
-    <div className="App">
-      <header className="App-header"></header>
-    </div>
+    <section className="App">
+      {discos.map((disco) => 
+      <div className="discos"
+      key={disco.id}>
+        <img src={disco.imagem} className="capa-disco"/>
+        <p>{disco.banda}</p>
+        <p>{disco.album}</p>
+        <p>{disco.ano}</p>
+      </div>
+      )}
+    </section>
   );
 }
 
