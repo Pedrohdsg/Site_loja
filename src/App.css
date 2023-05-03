@@ -2,18 +2,28 @@
   margin: 2em;
   padding: 0.2em;
   background-color: rgba(0, 0, 0, 0.2);
-  width: 10%;
+  min-width: 12%;
   text-align: center;
   border-radius: 1em;
   display: block;
+  font-weight: bold;
 }
 
 
 .App {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .capa-disco {
-width: 8em;
+width: 80%;
 border-radius: 1em;
+margin: .2em;
+}
+
+.discos:hover {
+  background-color: rgba(0, 0, 255, 0.336);
+  color: aliceblue;
+  border-color: aliceblue;
+  border-style: solid;
 }

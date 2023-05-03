@@ -15,6 +15,7 @@ function App() {
       album: "Angel Dust",
       ano: 1992,
       imagem: album1,
+      preco: 130
     },
     {
       id: 2,
@@ -22,6 +23,7 @@ function App() {
       album: "King For A Day... Fool For A Lifetime",
       ano: 1995,
       imagem: album2,
+      preco: 120
     },
     {
       id: 3,
@@ -29,6 +31,7 @@ function App() {
       album: "The Real Thing",
       ano: 1995,
       imagem: album3,
+      preco: 70
     },
     {
       id: 4,
@@ -36,6 +39,7 @@ function App() {
       album: "Times Up",
       ano: 1988,
       imagem: album4,
+      preco: 70
     },
     {
       id: 5,
@@ -43,6 +47,7 @@ function App() {
       album: "Vivid",
       ano: 1984,
       imagem: album5,
+      preco: 120
     },
     {
       id: 6,
@@ -50,6 +55,7 @@ function App() {
       album: "Oddfellows",
       ano: 2013,
       imagem: album6,
+      preco: 128
     },
     {
       id: 7,
@@ -57,6 +63,7 @@ function App() {
       album: "Tomahawk",
       ano: 2001,
       imagem: album7,
+      preco: 110
     },
   ];
 
@@ -69,6 +76,7 @@ function App() {
         <p>{disco.banda}</p>
         <p>{disco.album}</p>
         <p>{disco.ano}</p>
+        <p>R$ {disco.preco}</p>
       </div>
       )}
     </section>

@@ -3,7 +3,8 @@
   background-size: cover;
   position: relative;
   display: flex;
-  width: 100%;
+  min-width: fit-content;
+  height: auto;
 }
 
 .link {
@@ -16,7 +17,6 @@
   font-weight: bolder;
   margin: 1em;
   justify-content: space-between;
-  display: flexbox;
 }
 
 .logo {
@@ -26,6 +26,7 @@
 }
 
 .nav {
-  margin: 4em;
+  margin: 10%;
   display: flex;
+  flex-wrap: wrap;
 }
